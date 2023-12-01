@@ -48,7 +48,11 @@ const Body = () => {
       <div className="md:w-[45%] space-y-7" style={{ fontFamily: "Manrope" }}>
         <div className="md:text-5xl text-2xl font-[400] text-center md:text-start">
           <span className="text-blue-600">ONE TIME ONLY</span> Special Price For
-          6 Extra Clarifion For Only <span>$14 Each</span>($84.00 Total)
+          6 Extra Clarifion For Only{" "}
+          <span className="text-blue-600">$14 Each</span>($84.00 Total)
+        </div>
+        <div className="block md:hidden">
+          <img src={Ionizer1} alt="Ionizer1" className="w-[100%] rounded-2xl" />
         </div>
         <div className="flex flex-row">
           <div className="md:w-[30%] w-[80px] mr-4 md:mr-6">
@@ -232,11 +236,12 @@ const Body = () => {
             <PercentIcon />
           </div>
           <p className="text-[24px]">
-            Save <span className="text-blue-400">53%</span> and get{" "}
-            <span className="text-blue-400">6 extra Clarifision</span> for only{" "}
-            <span className="text-blue-400">$14 Each.</span>
+            Save <span className="text-blue-600">53%</span> and get{" "}
+            <span className="text-blue-600">6 extra Clarifision</span> for only{" "}
+            <span className="text-blue-600">$14 Each.</span>
           </p>
         </div>
+
         <div className="bg-green-500 rounded-full p-3 text-[24px] flex justify-center text-center text-white">
           YES - CLAIM MY DISCOUNT{" "}
           <span className="ml-2 items-center flex">
@@ -575,8 +580,9 @@ const Body = () => {
           </div>
           <div className="text-xl">
             If you are not completely thrilled with your Clarifion - We have a
-            <span>30 day satisfaction guarantee.</span> Please refer to our return policy at
-            the bottom of the page for more details. Happy Shopping!
+            <span>30 day satisfaction guarantee.</span> Please refer to our
+            return policy at the bottom of the page for more details. Happy
+            Shopping!
           </div>
         </div>
       </div>
